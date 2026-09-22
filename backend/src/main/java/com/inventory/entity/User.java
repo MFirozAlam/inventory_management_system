@@ -25,7 +25,6 @@ public class User {
  @Column(nullable = false)
  private String phone;
 
- private String email;
  @Column(nullable = false, unique = true)
  private String username;
 
